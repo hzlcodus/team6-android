@@ -40,8 +40,9 @@ class DiaryJCYFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.goTodo.setOnClickListener{
-            val action = DiaryJCYFragmentDirections.actionDiaryjcyFragmentToTodoListFragment()
-            this.findNavController().navigate(action)
+//            val action = DiaryJCYFragmentDirections.actionDiaryjcyFragmentToTodoListFragment()
+//            this.findNavController().navigate(action)
+            // TODO: Diary-Todo 연결
         }
 
     }
